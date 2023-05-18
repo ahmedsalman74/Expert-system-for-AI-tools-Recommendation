@@ -1,5 +1,5 @@
 # GUI for : Expert system for AI tools recommendation Using Python and Experta
-<img src="https://snipboard.io/ZUC8Kz.jpg">
+<img src="https://snipboard.io/94YFJK.jpg">
 
 ### An Expert System using python and experta with tkinter GUI
 
