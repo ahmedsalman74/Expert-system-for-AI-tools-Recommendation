@@ -2,8 +2,6 @@ from experta import *
 from tkinter import *
 from tkinter import messagebox
 
-
-
 def Answer(word):
     app = Tk()
     app.title("Answer")
@@ -198,24 +196,8 @@ class Sound_Kit_Aid(KnowledgeEngine):
         Answer(
                          "\nD-DI:\n https://www.d-id.com/")
  
-    # 4444444444444444444444444
-    #   @Rule(Fact(Pc_mic_action ='no'))
-    #  def content_maker_equipment(self):
-    #     x = test("Do You have a microphone?", ['yes', 'no'])
-    #    self.declare(Fact(pc_mic_action=x))
-
-    # @Rule(Fact(content_maker_action ='no '))
-    # def content_maker_equipment(self):
-    #   x = test("Do you have A Personal Computer?", ['yes', 'no'])
-    #  self.declare(Fact(content_maker_action=x))
-
-    # 44444444444444444444444444444444444444444
-
-    # image tools powered by Discord
   
 # No noise
-
-
 
 
 engine = Sound_Kit_Aid()
