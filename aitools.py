@@ -1,4 +1,4 @@
-from experta import *
+from experta import *             #may not work on your version
 from tkinter import *
 from tkinter import messagebox
 
@@ -198,7 +198,6 @@ class Sound_Kit_Aid(KnowledgeEngine):
  
   
 # No noise
-
 
 engine = Sound_Kit_Aid()
 engine.reset()
