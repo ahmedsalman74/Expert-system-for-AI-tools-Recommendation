@@ -133,7 +133,7 @@ class Sound_Kit_Aid(KnowledgeEngine):
         
     @Rule(Fact(action='text tools'))
     def text_home(self):
-        x = test("Type of use?", ['plagiarism and grammar', 'generate your own content', 'Ecommerce content' , 'article writer with 9 languages'])
+        x = test("Type of use ?", ['plagiarism and grammer', 'generate your own content ?', 'Ecommerce content' , 'article writer with 9 languages'])
         self.declare(Fact(action=x))
         
     @Rule(Fact(action='plagiarism and grammar'))
