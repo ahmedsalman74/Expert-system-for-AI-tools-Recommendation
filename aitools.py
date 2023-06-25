@@ -5,7 +5,6 @@ from tkinter import messagebox
 def Answer(word):
     app = Tk()
     app.title("Answer")
-    app.iconbitmap(r'Images\SoundKitAid.ico')
     app.resizable(0, 0)
     ws = app.winfo_screenwidth()
     wh = app.winfo_screenheight()
